@@ -19,22 +19,22 @@
   <meta name="author" content="zdc">
   <meta name="keywords" content="">
   
-    <meta name="description" content="复建WHEN?dp 背包 区间 树上 数数 数位  字符串 字符串哈希（看一眼罢） trie树 KMP 扩展KMP Manacher  ds 并查集 树状数组 ST表 线段树 平衡树 单调栈&#x2F;单调队列 可持久化  图论 拓扑排序 LCA 树链剖分 最短路 Floyd dijstra   最小生成树 Tarjan（连通性问题） 割点 割边   二分图 网络流  近期练习赛能打一场就是赢 6">
+    <meta name="description" content="最短路Floyd1234for(int k&#x3D;1;k&lt;&#x3D;n;k++)    for(int i&#x3D;1;i&lt;&#x3D;n;i++)        for(int j&#x3D;1;j&lt;&#x3D;n;j++)            f[i][j]&#x3D;min(f[i][j],f[i][k]+f[k][j]); P13519在一个边权均为0的无向图中每次将一条边边权变为1求所有点到其他点最短路之和 1.可离线处理时加边">
 <meta property="og:type" content="article">
-<meta property="og:title" content="学习计划">
-<meta property="og:url" content="http://zzzdc0505.github.io/2026/06/24/%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/index.html">
+<meta property="og:title" content="图论笔记">
+<meta property="og:url" content="http://zzzdc0505.github.io/2026/06/26/%E5%9B%BE%E8%AE%BA%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="zzzdc_&#39;s blog">
-<meta property="og:description" content="复建WHEN?dp 背包 区间 树上 数数 数位  字符串 字符串哈希（看一眼罢） trie树 KMP 扩展KMP Manacher  ds 并查集 树状数组 ST表 线段树 平衡树 单调栈&#x2F;单调队列 可持久化  图论 拓扑排序 LCA 树链剖分 最短路 Floyd dijstra   最小生成树 Tarjan（连通性问题） 割点 割边   二分图 网络流  近期练习赛能打一场就是赢 6">
+<meta property="og:description" content="最短路Floyd1234for(int k&#x3D;1;k&lt;&#x3D;n;k++)    for(int i&#x3D;1;i&lt;&#x3D;n;i++)        for(int j&#x3D;1;j&lt;&#x3D;n;j++)            f[i][j]&#x3D;min(f[i][j],f[i][k]+f[k][j]); P13519在一个边权均为0的无向图中每次将一条边边权变为1求所有点到其他点最短路之和 1.可离线处理时加边">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-06-24T10:54:20.000Z">
-<meta property="article:modified_time" content="2026-06-25T00:33:20.807Z">
+<meta property="article:published_time" content="2026-06-26T06:14:20.000Z">
+<meta property="article:modified_time" content="2026-06-26T07:33:00.461Z">
 <meta property="article:author" content="zdc">
 <meta property="article:tag" content="学点算法！">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>学习计划 - zzzdc_&#39;s blog</title>
+  <title>图论笔记 - zzzdc_&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -303,7 +303,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="学习计划"></span>
+            <span id="subtitle" data-typed-text="图论笔记"></span>
           
         </div>
 
@@ -314,8 +314,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-06-24 18:54" pubdate>
-          2026年6月24日 晚上
+        <time datetime="2026-06-26 14:14" pubdate>
+          2026年6月26日 下午
         </time>
       </span>
     
@@ -326,7 +326,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          196 字
+          1.3k 字
         
       </span>
     
@@ -337,7 +337,7 @@
         
         
         
-          2 分钟
+          11 分钟
         
       </span>
     
@@ -376,54 +376,26 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">学习计划</h1>
+            <h1 id="seo-header">图论笔记</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="复建WHEN"><a href="#复建WHEN" class="headerlink" title="复建WHEN?"></a>复建WHEN?</h2><h3 id="dp"><a href="#dp" class="headerlink" title="dp"></a>dp</h3><ul>
-<li>背包</li>
-<li>区间</li>
-<li>树上</li>
-<li>数数</li>
-<li>数位</li>
-</ul>
-<h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><ul>
-<li>字符串哈希（看一眼罢）</li>
-<li>trie树</li>
-<li>KMP</li>
-<li>扩展KMP</li>
-<li>Manacher</li>
-</ul>
-<h3 id="ds"><a href="#ds" class="headerlink" title="ds"></a>ds</h3><ul>
-<li>并查集</li>
-<li>树状数组</li>
-<li>ST表</li>
-<li>线段树</li>
-<li>平衡树</li>
-<li>单调栈&#x2F;单调队列</li>
-<li>可持久化</li>
-</ul>
-<h3 id="图论"><a href="#图论" class="headerlink" title="图论"></a>图论</h3><ul>
-<li>拓扑排序</li>
-<li>LCA</li>
-<li>树链剖分</li>
-<li>最短路<ul>
-<li>Floyd</li>
-<li>dijstra</li>
-</ul>
-</li>
-<li>最小生成树</li>
-<li>Tarjan（连通性问题）<ul>
-<li>割点</li>
-<li>割边</li>
-</ul>
-</li>
-<li>二分图</li>
-<li>网络流</li>
-</ul>
-<h2 id="近期练习赛"><a href="#近期练习赛" class="headerlink" title="近期练习赛"></a>近期练习赛</h2><p><code>能打一场就是赢</code></p>
-<p>6&#x2F;27  ABC<br>6&#x2F;27 cf div2<br>6&#x2F;28 ARC  </p>
+                <h2 id="最短路"><a href="#最短路" class="headerlink" title="最短路"></a>最短路</h2><h3 id="Floyd"><a href="#Floyd" class="headerlink" title="Floyd"></a>Floyd</h3><figure class="highlight inform7"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs inform7">for(int k=1;k&lt;=n;k++)<br>    for(int i=1;i&lt;=n;i++)<br>        for(int j=1;j&lt;=n;j++)<br>            f<span class="hljs-comment">[i]</span><span class="hljs-comment">[j]</span>=min(f<span class="hljs-comment">[i]</span><span class="hljs-comment">[j]</span>,f<span class="hljs-comment">[i]</span><span class="hljs-comment">[k]</span>+f<span class="hljs-comment">[k]</span><span class="hljs-comment">[j]</span>);<br></code></pre></td></tr></table></figure>
+<h4 id="P13519"><a href="#P13519" class="headerlink" title="P13519"></a>P13519</h4><p>在一个边权均为0的无向图中每次将一条边边权变为1<br>求所有点到其他点最短路之和</p>
+<p>1.可离线处理时加边减边操作可互换。因为最短路松弛后结果不增，可以考虑将减边转化为加边。<br>2.只改变一条边边权时只用重新用这条边松弛一遍，不用$N^3$写法</p>
+<figure class="highlight inform7"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs inform7">for(int i=1;i&lt;=n;i++)<br>    for(int j=1;j&lt;=n;j++)<br>        f<span class="hljs-comment">[i]</span><span class="hljs-comment">[j]</span>=min(f<span class="hljs-comment">[i]</span><span class="hljs-comment">[j]</span>,min(f<span class="hljs-comment">[i]</span><span class="hljs-comment">[x]</span>+f<span class="hljs-comment">[y]</span><span class="hljs-comment">[j]</span>,f<span class="hljs-comment">[i]</span><span class="hljs-comment">[y]</span>+f<span class="hljs-comment">[x]</span><span class="hljs-comment">[j]</span>));<br></code></pre></td></tr></table></figure>
+
+
+<h3 id="dijstra"><a href="#dijstra" class="headerlink" title="dijstra"></a>dijstra</h3><p>结构体写法</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">struct</span> <span class="hljs-title class_">nod</span><br>&#123;<br>    <span class="hljs-type">int</span> x,w;<br>    <span class="hljs-type">bool</span> <span class="hljs-keyword">operator</span> &lt;(nod other)<span class="hljs-type">const</span><span class="hljs-comment">//默认大根堆是用&#x27;&lt;&#x27;实现的 所以重载的是&#x27;&lt;&#x27;</span><br>    &#123;<br>        <span class="hljs-keyword">return</span> w&gt;other.w;<span class="hljs-comment">//将&#x27;&lt;&#x27;重载为&#x27;&gt;&#x27;</span><br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<p>主体</p>
+<figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs llvm">q.push(&#123;st<span class="hljs-punctuation">,</span><span class="hljs-number">0</span>&#125;)<span class="hljs-comment">;</span><br>dis[st]<span class="hljs-operator">=</span><span class="hljs-number">0</span><span class="hljs-comment">;</span><br>while(<span class="hljs-title">!q.empty</span>())<br>&#123;<br>    nod top<span class="hljs-operator">=</span>q.top()<span class="hljs-comment">;</span><br>    q.pop()<span class="hljs-comment">;</span><br>    if(vis[top.<span class="hljs-keyword">x</span>])  continue<span class="hljs-comment">;</span><br>    vis[top.<span class="hljs-keyword">x</span>]<span class="hljs-operator">=</span><span class="hljs-number">1</span><span class="hljs-comment">;</span><br>    for(auto <span class="hljs-keyword">to</span>:g[top.<span class="hljs-keyword">x</span>])<br>    &#123;<br>        if(dis[<span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span>]&gt;<span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span>+top.<span class="hljs-keyword">x</span>)<br>            dis[<span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span>]<span class="hljs-operator">=</span><span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span>+top.<span class="hljs-keyword">x</span><span class="hljs-punctuation">,</span>q.push(&#123;<span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span><span class="hljs-punctuation">,</span>dis[<span class="hljs-keyword">to</span>.<span class="hljs-keyword">x</span>]&#125;)<span class="hljs-comment">;</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>对比SPFA</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs stata"><span class="hljs-keyword">while</span> (!q.empty()) &#123;<br>    int <span class="hljs-keyword">u</span> = q.front();<br>    q.pop(), vis[<span class="hljs-keyword">u</span>] = 0;<br>    <span class="hljs-keyword">for</span> (auto <span class="hljs-keyword">ed</span> : <span class="hljs-keyword">e</span>[<span class="hljs-keyword">u</span>]) &#123;<br>      int v = <span class="hljs-keyword">ed</span>.v, w = <span class="hljs-keyword">ed</span>.w;<br>      <span class="hljs-keyword">if</span> (<span class="hljs-keyword">dis</span>[v] &gt; <span class="hljs-keyword">dis</span>[<span class="hljs-keyword">u</span>] + w) &#123;<br>        <span class="hljs-keyword">dis</span>[v] = <span class="hljs-keyword">dis</span>[<span class="hljs-keyword">u</span>] + w;<br>        cnt[v] = cnt[<span class="hljs-keyword">u</span>] + 1;  <span class="hljs-comment">// 记录最短路经过的边数</span><br>        <span class="hljs-keyword">if</span> (cnt[v] &gt;= <span class="hljs-keyword">n</span>) <span class="hljs-keyword">return</span> false;<br>        <span class="hljs-comment">// 在不经过负环的情况下，最短路至多经过 n - 1 条边</span><br>        <span class="hljs-comment">// 因此如果经过了多于 n 条边，一定说明经过了负环</span><br>        <span class="hljs-keyword">if</span> (!vis[v]) q.push(v), vis[v] = 1;<br>      &#125;<br>    &#125;<br>  &#125;<br></code></pre></td></tr></table></figure>
+<p>只有上一次被松弛的结点，所连接的边，才有可能引起下一次的松弛操作。因此队列中所存元素是所有待松弛的点。<br>dij中每个点最多被松弛一次，SPFA中vis数组记录的则是队列中元素。</p>
+<h4 id="P1462"><a href="#P1462" class="headerlink" title="P1462"></a>P1462</h4><p>有一个带权无向图，求满足路径长度$dis\leq b$时路径上点权最大值的最小值。</p>
+<p>最大值最小&#x2F;最小值最大问题 考虑二分<br>对点权二分答案跑dij。</p>
 
                 
               </div>
@@ -448,8 +420,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>学习计划</div>
-      <div>http://zzzdc0505.github.io/2026/06/24/学习计划/</div>
+      <div>图论笔记</div>
+      <div>http://zzzdc0505.github.io/2026/06/26/图论笔记/</div>
     </div>
     <div class="license-meta">
       
@@ -461,7 +433,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年6月24日</div>
+          <div>2026年6月26日</div>
         </div>
       
       
@@ -493,9 +465,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2026/06/24/%E5%8D%95%E8%AF%8D%E6%9C%AC/" title="学习计划">
+                      <a href="/2026/06/26/%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3/" title="数学笔记">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">学习计划</span>
+                        <span class="hidden-mobile">数学笔记</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -503,8 +475,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2026/06/24/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2026/06/24/%E5%8D%95%E8%AF%8D%E6%9C%AC/" title="学习计划">
+                        <span class="hidden-mobile">学习计划</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
